@@ -10,17 +10,9 @@ Pod::Spec.new do |s|
   s.name             = 'QuiltView'
   s.version          = '0.1.0'
   s.summary          = 'QuiltView is a subclass of UICollectionViewLayout that positions various sized cells in a quilt like pattern.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 QuiltView will layout CollectionView cells with various widths and heights on the page. The cells are positioned in a quilt style layout so each cell fits next to the other cell, leaving only the space defined by the UIEdgeInsets. You can provide widths and heights that are not equal creating rectangular shapes or you can specify a width and height that matches to ensure the cells are square. This library is a port of the RFQuiltLayout developed by Bryce Redd. That project can be found here: https://github.com/bryceredd/RFQuiltLayout
                        DESC
-
   s.homepage         = 'https://github.com/facetdigital/QuiltView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
