@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QuiltView_Example' do
+  pod 'QuiltView', :path => '../'
+
+  target 'QuiltView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

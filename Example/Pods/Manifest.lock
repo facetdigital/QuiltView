@@ -1,0 +1,16 @@
+PODS:
+  - QuiltView (0.1.0)
+
+DEPENDENCIES:
+  - QuiltView (from `../`)
+
+EXTERNAL SOURCES:
+  QuiltView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QuiltView: 394d88c443244af18042ced8552f431fa4568059
+
+PODFILE CHECKSUM: 6eb3760e39ab74df0716c0d6238ac81676040cd1
+
+COCOAPODS: 1.1.1

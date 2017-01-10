@@ -1,0 +1,6 @@
+framework module Pods_QuiltView_Tests {
+  umbrella header "Pods-QuiltView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module QuiltView {
+  umbrella header "QuiltView-umbrella.h"
+
+  export *
+  module * { export * }
+}
