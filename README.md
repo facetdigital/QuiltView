@@ -9,7 +9,7 @@ QuiltView is a Swift port of [RFQuiltLayout](https://github.com/bryceredd/RFQuil
 1. Install the pod using `pod install` 
 1. Add the layout as the subclass of your UICollectionView. To do that you set the **Layout** value to **Custom** and then select `QuiltView` as the **Class** and **Module**
 
-	![Subclass the layout](https://github.com/facetdigital/QuiltView/blob/master/Images/ExampleView.png)
+	![Subclass the layout](Images/QuiltViewLayout.png)
 
 1. Import QuiltView into your controller: `import QuiltView`
 1. Set the `QuiltViewDelegate` on the Controller hosting the UICollectionView. Next, depending on how you want the cells to appear you can set the width and height of them. You can set the width and heights to different values to create rectangular shapes or you can set the width and height to the same values to create squares. 
