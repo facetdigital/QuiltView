@@ -21,6 +21,7 @@ QuiltView will layout CollectionView cells with various widths and heights on th
   s.social_media_url = 'https://twitter.com/FacetDigital'
 
   s.ios.deployment_target = '10.2'
+  s.tvos.deployment_target = '10.1'
 
   s.source_files = 'QuiltView/Classes/*'
   
