@@ -35,29 +35,29 @@
 		04EA5266C617D257B0498229112C1967 /* Pods-QuiltView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuiltView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		06A1B0119643473A5D548AB18FF9131F /* Pods-QuiltView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuiltView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		129D96B89720C79133F3EE00FC65B679 /* Pods-QuiltView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuiltView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1762C62E74285F7C29BE519871C36ECD /* Pods-QuiltView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuiltView_Example.modulemap"; sourceTree = "<group>"; };
+		1762C62E74285F7C29BE519871C36ECD /* Pods-QuiltView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuiltView_Example.modulemap"; sourceTree = "<group>"; };
 		1DEAC7F81F1CADC7BB0781162EF54725 /* Pods-QuiltView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuiltView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1EA2C5F13BCD0CBDA459ACCCD1642D5E /* Pods-QuiltView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuiltView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EF460855C579104A172D5E985AD5605 /* Pods-QuiltView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuiltView_Tests.modulemap"; sourceTree = "<group>"; };
+		1EF460855C579104A172D5E985AD5605 /* Pods-QuiltView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuiltView_Tests.modulemap"; sourceTree = "<group>"; };
 		289BB35B734CFBD10C12343E7CFE2471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31B77B3C97E00B11E5E27934B2CA575E /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		37768EBD29D3755027191D160C7EEA6C /* Pods-QuiltView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuiltView_Example-dummy.m"; sourceTree = "<group>"; };
-		3A7F8F5F57CAD5D30B5F46D7DF6AD0A9 /* QuiltView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuiltView.framework; path = QuiltView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7F8F5F57CAD5D30B5F46D7DF6AD0A9 /* QuiltView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuiltView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45627463A5E344AAA224940E008E7629 /* QuiltView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuiltView.swift; sourceTree = "<group>"; };
 		58A38FBACE8315EAE1B1BFBFF73BD634 /* Pods-QuiltView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuiltView_Example-resources.sh"; sourceTree = "<group>"; };
 		5FF264A6B490230D7493797696758553 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A28C15C3316D37813CD7A4A9CB5BEE /* Pods-QuiltView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuiltView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		70EA40E53947D26EFC77E64BC4E11AC1 /* QuiltView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuiltView-prefix.pch"; sourceTree = "<group>"; };
 		7D9FC1B840A8EC5A30DC54724E3EE72B /* QuiltView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuiltView.xcconfig; sourceTree = "<group>"; };
-		8D227D69204A5697329E9399E03E0485 /* Pods_QuiltView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuiltView_Tests.framework; path = "Pods-QuiltView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D227D69204A5697329E9399E03E0485 /* Pods_QuiltView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuiltView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C75B45C4A96BCD7F963A8CEFEB3E6C /* QuiltView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuiltView-umbrella.h"; sourceTree = "<group>"; };
-		9EAE7C388EE128175CABFAF0A6FE5E44 /* QuiltView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QuiltView.modulemap; sourceTree = "<group>"; };
+		9EAE7C388EE128175CABFAF0A6FE5E44 /* QuiltView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QuiltView.modulemap; sourceTree = "<group>"; };
 		B980DC37640ED31301E839568A9B42E2 /* QuiltView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuiltView-dummy.m"; sourceTree = "<group>"; };
 		BA229CC48466C83C5133B2D00D99174F /* Pods-QuiltView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuiltView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE6EDCBC39B38239EC9EBA63E20A181E /* Pods-QuiltView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuiltView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CFD721747ED4DB5805ABCABEF4EE9CE7 /* Pods_QuiltView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuiltView_Example.framework; path = "Pods-QuiltView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD721747ED4DB5805ABCABEF4EE9CE7 /* Pods_QuiltView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuiltView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A52265BFBE04D34CE6AF45A9A9F9A4 /* Pods-QuiltView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuiltView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7E0DD6ED8B615F95CA14345E02A4831 /* Pods-QuiltView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuiltView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D961711725EB8C17323D1C52DAA86EF4 /* Pods-QuiltView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuiltView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,7 +187,6 @@
 				31B77B3C97E00B11E5E27934B2CA575E /* Constants.swift */,
 				45627463A5E344AAA224940E008E7629 /* QuiltView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -196,7 +195,6 @@
 			children = (
 				8F62045815F0CC30E11FA1B655AC198B /* Classes */,
 			);
-			name = QuiltView;
 			path = QuiltView;
 			sourceTree = "<group>";
 		};
