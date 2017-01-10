@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuiltView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'QuiltView is a subclass of UICollectionViewLayout that positions various sized cells in a quilt like pattern.'
   s.description      = <<-DESC
 QuiltView will layout CollectionView cells with various widths and heights on the page. The cells are positioned in a quilt style layout so each cell fits next to the other cell, leaving only the space defined by the UIEdgeInsets. You can provide widths and heights that are not equal creating rectangular shapes or you can specify a width and height that matches to ensure the cells are square. This library is a port of the RFQuiltLayout developed by Bryce Redd. That project can be found here: https://github.com/bryceredd/RFQuiltLayout
