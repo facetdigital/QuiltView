@@ -33,6 +33,8 @@ public class QuiltView : UICollectionViewLayout {
     }
   }
   
+  public var cellIndexPaths = [Int:IndexPath]()
+  
   // MARK: Private Properties
   
   private weak var delegate: QuiltViewDelegate? {
@@ -42,7 +44,6 @@ public class QuiltView : UICollectionViewLayout {
   }
   
   private static var didShowMessage = false
-  private static var cellIndexPaths = [Int:IndexPath]()
   
   // Set the class name for debug purposes only
   private var className = "QuiltView"
@@ -403,7 +404,7 @@ public class QuiltView : UICollectionViewLayout {
     self.positionByIndexPath[path.section]?[path.row] = point
     
     // Store the index path so we can use it later on for selecting random cell's to scroll to
-    QuiltView.cellIndexPaths[QuiltView.cellIndexPaths.count] = path
+    self.cellIndexPaths[self.cellIndexPaths.count] = path
   }
   
  private func positionForIndexPath(path: IndexPath) -> CGPoint {
